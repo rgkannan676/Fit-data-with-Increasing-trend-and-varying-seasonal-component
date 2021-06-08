@@ -60,11 +60,11 @@ Analysing the two models:
 
 ### HW Additive:
 
-![image](https://user-images.githubusercontent.com/29349268/121109669-977cd400-c83e-11eb-849e-d01acefadd9f.png)
+![image](https://user-images.githubusercontent.com/29349268/121110675-4241c200-c840-11eb-9eba-48f53abd35f1.png)
 
 ### HW Multiplicative:
 
-![image](https://user-images.githubusercontent.com/29349268/121109703-a82d4a00-c83e-11eb-85b6-0d296a55c354.png)
+![image](https://user-images.githubusercontent.com/29349268/121110700-4e2d8400-c840-11eb-8987-834b2d3b579e.png)
 
 Comparing the AIC values, we can see that HW multiplicative is a better than the HW additive forecast. Therefore, HW multiplicative can be used to predict the values for this data.
 
@@ -154,7 +154,7 @@ fita1
  
 Fig: Diagnostic of the 1st Model, p value is low and residual ACF has high values.
 
-![image](https://user-images.githubusercontent.com/29349268/121110275-98facc00-c83f-11eb-8c9c-580672e27411.png)
+![image](https://user-images.githubusercontent.com/29349268/121110492-f4c55500-c83f-11eb-843e-d4c502c11ce0.png)
 
 Here we can observe the p value is low and the residual ACF has high values. Therefore, we can ignore this model.
 
@@ -173,7 +173,7 @@ fita2
  
 Fig: Diagnostic of the 2nd Model, p value is high and residual ACF cut off.
 
-![image](https://user-images.githubusercontent.com/29349268/121110304-a87a1500-c83f-11eb-9425-538921687c82.png)
+![image](https://user-images.githubusercontent.com/29349268/121110520-00b11700-c840-11eb-934b-e7531f60e787.png)
 
 Here we can observe the p value is high and the residual ACF cut-off . Therefore, this model can be considered as a good model that fits the data.
 
@@ -192,7 +192,7 @@ fita3
  
 Fig: Diagnostic of the 3rd  Model, p value is low and residual ACF has high values.
 
-![image](https://user-images.githubusercontent.com/29349268/121110343-ba5bb800-c83f-11eb-9bfb-247f748a0164.png)
+![image](https://user-images.githubusercontent.com/29349268/121110572-16bed780-c840-11eb-9f07-83644e60508e.png)
 
 Here we can observe the p value is low and the residual ACF has high values. Therefore, we can ignore this model.
 
@@ -211,7 +211,7 @@ fita4
 
 Fig: Diagnostic of the 4th Model, p value is high and residual ACF cut off.
 
-![image](https://user-images.githubusercontent.com/29349268/121110391-cb0c2e00-c83f-11eb-80b6-7493aab28288.png)
+![image](https://user-images.githubusercontent.com/29349268/121110607-24745d00-c840-11eb-8064-7c70856ef783.png)
 
 Here we can observe the p value is high and the residual ACF cut-off . Therefore, this model can be considered as a good model that fits the data.
 
